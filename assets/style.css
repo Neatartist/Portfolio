@@ -89,7 +89,7 @@ header div {
     padding: 20px;
 }
 /* applies affects to the side title */
-.side-title {
+.sidetitle {
     flex-basis: 20%;
     margin-right: 20px;
     font-family: sans-serif;
@@ -115,7 +115,7 @@ header div {
 }
 
 .title {
-    border-right: 2px solid #ccc;
+    border-right: 2px solid var(--dark);
     padding-right: 20px;
     margin-right: 20px;
 }
@@ -128,7 +128,7 @@ header div {
     flex: 1;
 }
 /* applies affects to my work boxes */
-.large-box {
+.largebox {
     display: block;
     background-image: url('./images/Police\ hire\ photo.jpg');
     background-size: cover;
@@ -139,7 +139,7 @@ header div {
 
 .text {
     float: left;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--secondary);
     padding: 20px;
 }
 
@@ -151,7 +151,7 @@ text h2 {
     margin: 10px 0 0;
 }
 /* applies affects to the small boxes */
-.small-box {
+.smallbox {
     width: 200px;
     height: 150px;
     background-image: url('./images/Police\ hire\ photo.jpg');
@@ -160,7 +160,7 @@ text h2 {
     margin: 10px;
 }  
 
-.small-text {
-    background-color: rgba(255, 255, 255, 0.8);
+.smalltext {
+    background-color: var(--secondary);
     padding: 10px;
 }
