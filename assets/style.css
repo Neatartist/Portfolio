@@ -1,0 +1,161 @@
+:root {
+    --primary: rgba(68, 88, 119, 1);
+    --secondary: rgba(146, 204, 206, 1);
+    --tertiary: rgba(49, 52, 61, 1);
+    --dark: rgba(28, 29, 33, 1);
+    --light: rgba(238, 238, 247, 1);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--light);
+}
+
+.title {
+    background-color: var(--secondary);
+    padding: 10px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary);
+    padding: 10px;
+    color: var(--dark)
+    
+}
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+    background-color:var(--secondary);
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.nav-buttons li {
+    list-style: none;
+    margin-left: 25px;
+    text-decoration: underline var(--secondary);
+    border: none;
+    padding: 10px 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: var(--secondary);
+}
+
+.banner {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/Banner.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner p {
+    color:black;
+    float: right;
+    margin-top: 140px;
+    background-color: var(--secondary);
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 70px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.side-title {
+    flex-basis: 20%;
+    margin-right: 20px;
+    font-family: sans-serif;
+    padding: 160px;
+    border-right: 3px solid var(--dark);
+    font-size: 30px;
+}
+
+.context {
+    flex-basis: 70%;
+}
+
+.context p {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title {
+    border-right: 2px solid #ccc;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.content {
+    flex: 1;
+}
+
+.large-box {
+    display: block;
+    background-image: url('./images/Police\ hire\ photo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+    padding: 130px;
+}
+
+.text {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+text h2 {
+    margin: 0;
+}
+
+.text p {
+    margin: 10px 0 0;
+}
+
+.small-box {
+    width: 200px;
+    height: 150px;
+    background-image: url('./images/Police\ hire\ photo.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}  
+
+.small-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
