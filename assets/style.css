@@ -1,3 +1,4 @@
+/* contains roots for repetative colors used */
 :root {
     --primary: rgba(68, 88, 119, 1);
     --secondary: rgba(146, 204, 206, 1);
@@ -12,14 +13,16 @@
     margin: 0;
 }
 
+/* affects the background color for the whole page */
 body {
     background-color: var(--light);
 }
-
+/* affects the my name its background color*/
 .title {
     background-color: var(--secondary);
     padding: 10px;
 }
+/* applies affects to the header */
 header {
     display: flex;
     align-items: center;
@@ -29,6 +32,7 @@ header {
     color: var(--dark)
     
 }
+/* applies affects to my name and its background color */
 .title h1 {
     margin: 0;
     font-size: 24px;
@@ -42,7 +46,7 @@ header div {
     font-family: sans-serif;
     font-size: 20px;
 }
-
+/* applies affects to the navigation bar */
 .nav-buttons {
     display: flex;
 }
@@ -57,7 +61,7 @@ header div {
     cursor: pointer;
     color: var(--secondary);
 }
-
+/* applies affects to the banner */
 .banner {
     height: 200px;
     width: 100%;
@@ -84,6 +88,7 @@ header div {
     align-items: center;
     padding: 20px;
 }
+/* applies affects to the side title */
 .side-title {
     flex-basis: 20%;
     margin-right: 20px;
@@ -92,7 +97,7 @@ header div {
     border-right: 3px solid var(--dark);
     font-size: 30px;
 }
-
+/* applies affects to the section containing the description about me */
 .context {
     flex-basis: 70%;
 }
@@ -122,7 +127,7 @@ header div {
 .content {
     flex: 1;
 }
-
+/* applies affects to my work boxes */
 .large-box {
     display: block;
     background-image: url('./images/Police\ hire\ photo.jpg');
@@ -145,7 +150,7 @@ text h2 {
 .text p {
     margin: 10px 0 0;
 }
-
+/* applies affects to the small boxes */
 .small-box {
     width: 200px;
     height: 150px;
