@@ -1,38 +1,36 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <!--contains the head of the html-->
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> Daniel Van Kirk</title>
-        <meta name="description" content="">
-        <link rel="stylesheet" href="assets/reset.css">
-        <link rel="stylesheet" href="assets/style.css">
-    </head>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <title>Daniel's portfolio</title>
+</head>
+
 <body>
-    <!--contains the header and the nav bar-->
+<!-- HEADER: Name and navigation bar -->
     <header>
-        <h1 class="title">Daniel's Portfolio</h1> 
-        <div>
-            <nav class="nav-buttons">
-                <li><a href="#About-me"></a>About Me</li>
-                <li><a href="#Work"></a>Work</li>
-                <li><a href="#Contact-Me"></a>Contact Me</li>
-                <li><a href="Resume"></a>Resume</li>
-            </nav>
-        </div>
+      <h1>Daniel Van Kirk</h1>
+          <nav class="nav-bar">
+              <ul>
+                <li> <a href="#">About Me</a></li>
+                <li> <a href="#">Work</a></li>
+                <li> <a href="#">Contact Me</a></li>
+                <li> <a href="#" >Resume</a></li>
+              </ul>                   
+          </nav>
     </header>
-    <!--contains the banner-->
-    <div class="banner">
-        <p>My experience!</p>
+<!-- Subheader for background image and fancy subtitle-->
+    <div class='subsec'>
+      <h2>My Experience!</h2>
     </div>
-    <!--contains the about me section-->
-    <article id="About-me" class="body">
-    <div class="sidetitle">
-        <p>About me</p>
-    </div>
-    <div class="context">
-        <p>My name is Daniel Van Kirk, I was born in the country of Guatemala. I was adopted and brought to the united strategies
+<!-- ABOUT ME-->
+    <main>
+        <section>
+          <h3>About Me</h3>
+          <div class="about-me">
+            <!-- placeholder text to check adjustments-->
+          <p> My name is Daniel Van Kirk, I was born in the country of Guatemala. I was adopted and brought to the united strategies
             at a very young age. I grew up in the state of Connecticut where i attended public school for the majority of my childhood. 
             When I reached highschool, I attended a private catholic highschool which gave me a fantastic education. Once I graduated from
             highschool, I attended St. Lawrence University where i majored in a medical field. My goal at this time was to go through medical
@@ -46,33 +44,74 @@
             high stress situations to simple situations that required people skills that i built. Being a police officer is a life changing experience that i 
             would not trade for anything else. But, i started to lose interest in the job which made me start looking for other jobs. I stumbled across the coding career.
             I have always had a knack for building things since i was young like legos. I also had an interest in how things are made since i can rember. When i was younger,
-            me and my father would always watch the show "How things are made." I decided to do some research and made the commitment to complete the UCF coding bootcamp.
-        </p>
-    </div>
-    </article>
-    <!--contains the boxes with the work i have done -->
-    <article class="container">
-        <aside class="sidetitle">
-            <h1>Work</h1>
-        </aside>
-        <main class="content">
-            <article1 class="largebox">
-            <div class="text">
-                <h2>Police</h2>
-                <p>Winter Springs Police department.</p>
-            </div>
-            </article1>
-        </main>
-        <main class="content">
-            <article1>
-                <div class="smallbox">
-                    <div class="smalltext">
-                        <h2>To be added</h2>
-                        <p>place holder</p>
-                    </div>
+            me and my father would always watch the show "How things are made." I decided to do some research and made the commitment to complete the UCF coding bootcamp. 
+            </p>
+          </div>
+          </section>
+
+<!-- WORK -->
+          <article class="work">
+            <h3>Work</h3>
+
+            <div class="container">
+              <!-- Images and captions still need fixing -->
+                <a class="flexitem workOne card-column" href="https://www.winterspringsfl.org/police">
+                  <div class="code-card">
+                      <h4>Police Officer</h4>
+                      <p>Winter Springs PD</p>
+                  </div>
+                </a>
+
+                <a class="flexitem workTwo card-column" href="https://neatartist.github.io/Apperitivo/">
+                  <div class="code-card">
+                      <h4>Apperitivo</h4>
+                      <p>Project 1</p>
+                  </div>
+                </a>
+
+                <a class="flexitem workThree card-column" href="box">
+                  <div class="code-card">
+                    <h4>Calculator</h4>
+                    <p>React</p>
                 </div>
-            </article1>
-        </main>
-        </article>
-    </body>
+                </a>
+
+                <a class="flexitem workFour card-column" href="box">
+                  <div class="code-card" >
+                    <h4>Pastel Puzzels</h4>
+                    <p>MERN </p>
+                </div>
+                </a>
+
+                <a class="flexitem workFive card-column" href="box">
+                  <div class="code-card">
+                    <h4>Run Buddy</h4>
+                    <p>HTML</p>
+                </div>
+                </a>
+
+              </div>
+          </article>
+        
+
+          <section>
+            <h3>Contact Me</h3>
+            <figure class="list">
+              <ul>
+                <li><a href="#">555.555.555</a></li>
+                <li><a href="#">Davk0810@gmail.com</a></li>
+                <li><a href="https://github.com/Neatartist">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </figure>
+            </section>
+    </main>
+
+<!-- FOOTER====================================================== -->
+
+<footer>
+
+</footer>
+
+</body>
 </html>
