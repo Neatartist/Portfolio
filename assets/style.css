@@ -188,7 +188,7 @@ h4{
 }
 
 .workTwo{
-    background-image: url("./images/banner03.jpg");
+    background-image: url("./images/guarded-river-60488-2757545d4c45.herokuapp.com_.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -312,8 +312,11 @@ figure a:visited{
 
 .list{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+    padding: 0%;
 
 }
     /* min-width: 500px;
